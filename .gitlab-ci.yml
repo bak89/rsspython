@@ -7,4 +7,4 @@ requirements:
         - python3 readFeed.py
   artifacts:
     paths:
-      - news_*.json
+      - ./news_*.json
