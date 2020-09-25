@@ -1,2 +1,12 @@
 image: python:3
 
+requirements:
+    stage: build
+    script:
+        - pip install -r requirements.txt
+
+rssfeed:
+    stage: deploy
+    script:
+        - python3 readFeed.py
+
