@@ -5,6 +5,8 @@ requirements:
     script:
         - pip install -r requirements.txt
         - python3 readFeed.py
+        - mkdir news_dir
+        - touch news_dir/news_*.json
     artifacts:
         paths:
-            - ./news_*.json
+            - news_dir/
