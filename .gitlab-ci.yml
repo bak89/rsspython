@@ -6,5 +6,5 @@ requirements:
         - pip install -r requirements.txt
         - python3 readFeed.py
     artifacts:
-      paths:
-        - ./news_*.json
+        paths:
+            - ./news_*.json
